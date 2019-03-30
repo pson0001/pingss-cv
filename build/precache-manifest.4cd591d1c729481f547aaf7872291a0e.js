@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/signup.f84402b5.jpg"
   },
   {
-    "revision": "99e829298efd71b05d45",
-    "url": "/pingss-cv/static/css/main.5dc8e5c8.chunk.css"
+    "revision": "3a74fba30fb19ca044c8",
+    "url": "/pingss-cv/static/css/main.4387d4fb.chunk.css"
   },
   {
     "revision": "c19b3127aa5426ad47c4",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/info.7cf21391.svg"
   },
   {
-    "revision": "85ee5b8e65479414365ae3f844219798",
-    "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
-  },
-  {
     "revision": "08bac64cdc7329a50f4415bfaa9ec990",
     "url": "/pingss-cv/static/media/contact.08bac64c.svg"
+  },
+  {
+    "revision": "85ee5b8e65479414365ae3f844219798",
+    "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
   },
   {
     "revision": "ba7c6346cb863f6855454a95dcd63e30",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/day.ae261962.png"
   },
   {
-    "revision": "99e829298efd71b05d45",
-    "url": "/pingss-cv/static/js/main.99e82929.chunk.js"
+    "revision": "3a74fba30fb19ca044c8",
+    "url": "/pingss-cv/static/js/main.3a74fba3.chunk.js"
   },
   {
     "revision": "d1402f85521a6ebd55f461f6605f3086",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/final.dd2cb557.jpg"
   },
   {
-    "revision": "582c264563c5db040562534008af82eb",
+    "revision": "1189b0f5bdd24bea455876d772bb7efd",
     "url": "/pingss-cv/index.html"
   }
 ];

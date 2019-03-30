@@ -85,10 +85,11 @@ $break-large: 1300px;
   margin: auto;
   margin-top: 30px;
   padding-left: 20px;
-  height: 60vh;
-  width: 70vw;
+  height: 65vh;
+  width: 50vw;
   background-image: url("../assets/hero.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   @media screen and (max-width: $break-slarge) {
     background-image: url("../assets/hero-img.svg");
     width: 80vw;
