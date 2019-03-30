@@ -2,7 +2,7 @@
   "name": "pingss",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pson0001.github.io/pingss-cv-digital-2019/",
+  "homepage": "https://pson0001.github.io/pingss-cv/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",

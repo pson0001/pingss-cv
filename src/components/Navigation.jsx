@@ -41,15 +41,15 @@ const navigation = props => {
   }
   useEffect(() => {
     let pathName = window.location.pathname
-    if (pathName === "/") {
+    if (pathName === "pson0001.github.io/pingss-cv/") {
       setActiveAboutPage(false)
       setActiveWorkPage(false)
       setActiveContactPage(false)
-    } else if (pathName === "/AboutMe") {
+    } else if (pathName === "pson0001.github.io/pingss-cv//AboutMe") {
       setActiveAboutPage(true)
       setActiveWorkPage(false)
       setActiveContactPage(false)
-    } else if (pathName === "/Contact") {
+    } else if (pathName === "pson0001.github.io/pingss-cv//Contact") {
       setActiveAboutPage(false)
       setActiveWorkPage(false)
       setActiveContactPage(true)
