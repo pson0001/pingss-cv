@@ -42,7 +42,7 @@ const navigation = props => {
   }
   useEffect(() => {
     let pathName = window.location.pathname
-    console.log(pathName)
+    //console.log(pathName)
     if (pathName === "/pingss-cv/") {
       setActiveAboutPage(false)
       setActiveWorkPage(false)

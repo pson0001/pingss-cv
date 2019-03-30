@@ -1,5 +1,5 @@
 @import "../scss/variables.module.scss";
-
+$break-medium: 600px;
 .about {
   display: block;
 
@@ -34,6 +34,9 @@
 }
 .cvBlock {
   padding: 0px 20vw;
+  @media screen and (max-width: $break-medium) {
+    padding: 0px 5vw;
+  }
   margin: 80px auto;
   height: 60vh;
   overflow-y: scroll;
@@ -55,6 +58,9 @@
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 200px 80%;
+      @media screen and (max-width: $break-medium) {
+        grid-template-columns: 100px 70%;
+      }
       grid-template-areas:
         "time heading "
         "....... detail "
@@ -79,6 +85,9 @@
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 200px 60%;
+      @media screen and (max-width: $break-medium) {
+        grid-template-columns: 100px 60%;
+      }
       grid-template-areas:
         "time detail "
         "....... detailMore ";
@@ -99,6 +108,9 @@
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 200px 60%;
+      @media screen and (max-width: $break-medium) {
+        grid-template-columns: 100px 60%;
+      }
       grid-template-areas:
         "time heading "
         "company responsiblities "
@@ -127,6 +139,9 @@
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 200px 60%;
+      @media screen and (max-width: $break-medium) {
+        grid-template-columns: 100px 60%;
+      }
       grid-template-areas:
         "title heading "
         "....... detail "

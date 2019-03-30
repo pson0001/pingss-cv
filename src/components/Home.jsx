@@ -33,7 +33,7 @@ const Home = props => {
 
   const openContactPage = e => {
     e.preventDefault()
-    console.log(e.screenX, e.screenY)
+    //console.log(e.screenX, e.screenY)
 
     setOpenContac(true)
     window.setTimeout(() => {
