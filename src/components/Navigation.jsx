@@ -63,7 +63,7 @@ const navigation = props => {
   })
   useEffect(() => {
     let pathName = window.location.pathname
-    if (pathName !== "/") {
+    if (pathName !== "/pingss-cv/") {
       setShowNav(true)
     } else {
       setShowNav(false)
