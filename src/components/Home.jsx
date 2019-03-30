@@ -65,6 +65,7 @@ const Home = props => {
       />
 
       <div className={styles.heroContainer} />
+      <div className={styles.heroSentence} />
       <div className={styles.panelContainer}>
         <div className={styles.panelPosition}>
           <ul>
