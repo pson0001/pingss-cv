@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pingss-cv/precache-manifest.4cd591d1c729481f547aaf7872291a0e.js"
+  "/pingss-cv/precache-manifest.9fc14b79fa50d650306d693d0e462383.js"
 );
 
 workbox.clientsClaim();
