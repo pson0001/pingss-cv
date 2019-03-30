@@ -130,13 +130,13 @@ const navigation = props => {
         <label id={styles.burger} htmlFor={styles.menuToggle} />
         <ul id={styles.menu}>
           <li>
-            <a href="#">ABOUT ME</a>
+            <a href="https://pson0001.github.io/pingss-cv/AboutMe">ABOUT ME</a>
           </li>
           <li>
-            <a href="#">WORK</a>
+            <a href="https://pson0001.github.io/pingss-cv/Work">WORK</a>
           </li>
           <li>
-            <a href="#">PING ME</a>
+            <a href="https://pson0001.github.io/pingss-cv/Contact">PING ME</a>
           </li>
         </ul>
       </div>
