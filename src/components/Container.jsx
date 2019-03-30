@@ -1,6 +1,6 @@
 import React from "react"
 import { Switch, Route, withRouter } from "react-router-dom"
-import { TransitionGroup, CSSTransition } from "react-transition-group"
+// import { TransitionGroup, CSSTransition } from "react-transition-group"
 import styles from "../scss/container.module.scss"
 import Home from "./Home"
 import AboutMe from "./AboutMe"
@@ -21,13 +21,6 @@ function Container({ location }) {
   return (
     <div className={styles.container}>
       <div>
-        {/* 
-          <TransitionGroup className={styles.transitionGroup}>
-          <CSSTransition
-            key={location.key}
-            timeout={{ enter: 600, exit: 200 }}
-            classNames="fade"
-          > */}
         <section className={styles.routeSection}>
           <Switch location={location}>
             <Route exact path="/" component={Home} />

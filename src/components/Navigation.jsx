@@ -71,15 +71,6 @@ const navigation = props => {
   })
   const [checkbox, setCheckbox] = useState(false)
 
-  // const windowWith = window.innerWidth
-  // useEffect(() => {
-  //   if (windowWith < 1001) {
-  //     setShowNavSmall(true)
-  //   } else {
-  //     setShowNavSmall(false)
-  //   }
-  // }, [])
-
   return (
     <div className={styles.navContainer}>
       <ul className={styles.navBar}>
@@ -139,6 +130,9 @@ const navigation = props => {
         <label id={styles.trigger} htmlFor={styles.menuToggle} />
         <label id={styles.burger} htmlFor={styles.menuToggle} />
         <ul id={styles.menu}>
+          <Link to="/AboutMe" onClick={() => onClick("about")}>
+            <span>ABOUT ME</span>
+          </Link>
           <li>
             <Link to="/AboutMe" onClick={() => onClick("about")}>
               ABOUT ME
