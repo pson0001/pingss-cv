@@ -12,6 +12,7 @@ const navigation = props => {
   // const [showNavSmall, setShowNavSmall] = useState(false)
 
   const onClick = e => {
+    setCheckbox(false)
     switch (e) {
       case "about":
         setActiveAboutPage(true)
@@ -41,15 +42,16 @@ const navigation = props => {
   }
   useEffect(() => {
     let pathName = window.location.pathname
+    console.log(pathName)
     if (pathName === "pson0001.github.io/pingss-cv/") {
       setActiveAboutPage(false)
       setActiveWorkPage(false)
       setActiveContactPage(false)
-    } else if (pathName === "pson0001.github.io/pingss-cv//AboutMe") {
+    } else if (pathName === "pson0001.github.io/pingss-cv/AboutMe") {
       setActiveAboutPage(true)
       setActiveWorkPage(false)
       setActiveContactPage(false)
-    } else if (pathName === "pson0001.github.io/pingss-cv//Contact") {
+    } else if (pathName === "pson0001.github.io/pingss-cv/Contact") {
       setActiveAboutPage(false)
       setActiveWorkPage(false)
       setActiveContactPage(true)
@@ -67,6 +69,7 @@ const navigation = props => {
       setShowNav(false)
     }
   })
+  const [checkbox, setCheckbox] = useState(false)
 
   // const windowWith = window.innerWidth
   // useEffect(() => {
@@ -125,18 +128,31 @@ const navigation = props => {
       </ul>
 
       <div>
-        <input type="checkbox" id={styles.menuToggle} />
+        <input
+          type="checkbox"
+          id={styles.menuToggle}
+          checked={checkbox}
+          onClick={() => {
+            setCheckbox(!checkbox)
+          }}
+        />
         <label id={styles.trigger} htmlFor={styles.menuToggle} />
         <label id={styles.burger} htmlFor={styles.menuToggle} />
         <ul id={styles.menu}>
           <li>
-            <a href="https://pson0001.github.io/pingss-cv/AboutMe">ABOUT ME</a>
+            <Link to="/AboutMe" onClick={() => onClick("about")}>
+              ABOUT ME
+            </Link>
           </li>
           <li>
-            <a href="https://pson0001.github.io/pingss-cv/Work">WORK</a>
+            <Link to="/Work" onClick={() => onClick("work")}>
+              WORK
+            </Link>
           </li>
           <li>
-            <a href="https://pson0001.github.io/pingss-cv/Contact">PING ME</a>
+            <Link to="/Contact" onClick={() => onClick("contact")}>
+              PING ME
+            </Link>
           </li>
         </ul>
       </div>
