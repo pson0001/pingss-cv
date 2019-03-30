@@ -130,9 +130,6 @@ const navigation = props => {
         <label id={styles.trigger} htmlFor={styles.menuToggle} />
         <label id={styles.burger} htmlFor={styles.menuToggle} />
         <ul id={styles.menu}>
-          <Link to="/AboutMe" onClick={() => onClick("about")}>
-            <span>ABOUT ME</span>
-          </Link>
           <li>
             <Link to="/AboutMe" onClick={() => onClick("about")}>
               ABOUT ME
