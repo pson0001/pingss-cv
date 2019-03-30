@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d1402f85521a6ebd55f461f6605f3086",
-    "url": "/pingss-cv/static/media/signin.d1402f85.jpg"
+    "revision": "f84402b5879a50eb3ca920abc9e6cb5b",
+    "url": "/pingss-cv/static/media/signup.f84402b5.jpg"
   },
   {
-    "revision": "d20d70c5b6b5a4aa7652",
-    "url": "/pingss-cv/static/css/main.fde00bb4.chunk.css"
+    "revision": "99e829298efd71b05d45",
+    "url": "/pingss-cv/static/css/main.5dc8e5c8.chunk.css"
   },
   {
     "revision": "c19b3127aa5426ad47c4",
@@ -52,16 +52,24 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/beer.f7adcbef.jpg"
   },
   {
-    "revision": "ba7c6346cb863f6855454a95dcd63e30",
-    "url": "/pingss-cv/static/media/work.ba7c6346.svg"
-  },
-  {
     "revision": "7cf2139131cf4e1288358d492c2b211a",
     "url": "/pingss-cv/static/media/info.7cf21391.svg"
   },
   {
+    "revision": "85ee5b8e65479414365ae3f844219798",
+    "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
+  },
+  {
     "revision": "08bac64cdc7329a50f4415bfaa9ec990",
     "url": "/pingss-cv/static/media/contact.08bac64c.svg"
+  },
+  {
+    "revision": "ba7c6346cb863f6855454a95dcd63e30",
+    "url": "/pingss-cv/static/media/work.ba7c6346.svg"
+  },
+  {
+    "revision": "f78174ce7093faa85541e63d74d1b8c4",
+    "url": "/pingss-cv/static/media/hero-img.f78174ce.svg"
   },
   {
     "revision": "287a3d457cef2514055d0d1a2dc03590",
@@ -100,12 +108,12 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/day.ae261962.png"
   },
   {
-    "revision": "f84402b5879a50eb3ca920abc9e6cb5b",
-    "url": "/pingss-cv/static/media/signup.f84402b5.jpg"
+    "revision": "99e829298efd71b05d45",
+    "url": "/pingss-cv/static/js/main.99e82929.chunk.js"
   },
   {
-    "revision": "d20d70c5b6b5a4aa7652",
-    "url": "/pingss-cv/static/js/main.d20d70c5.chunk.js"
+    "revision": "d1402f85521a6ebd55f461f6605f3086",
+    "url": "/pingss-cv/static/media/signin.d1402f85.jpg"
   },
   {
     "revision": "f637cc77533dc1dcd4fbf8e218ff8ede",
@@ -208,7 +216,7 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/final.dd2cb557.jpg"
   },
   {
-    "revision": "782b6b9d40bac5b05fd3b1f3d1a8641a",
+    "revision": "582c264563c5db040562534008af82eb",
     "url": "/pingss-cv/index.html"
   }
 ];
