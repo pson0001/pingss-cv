@@ -3,7 +3,7 @@ import styles from "../scss/navigation.module.scss"
 import { Link } from "react-router-dom"
 
 const navigation = props => {
-  console.log(window.innerWidth)
+  //console.log(window.innerWidth)
   const [activeAboutPage, setActiveAboutPage] = useState(false)
   const [activeWorkPage, setActiveWorkPage] = useState(false)
   const [activeContactPage, setActiveContactPage] = useState(false)
