@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/signup.f84402b5.jpg"
   },
   {
-    "revision": "3d1159ef34e7c777d531",
-    "url": "/pingss-cv/static/css/main.0556dc4b.chunk.css"
+    "revision": "55ff2b79edd5175c31f8",
+    "url": "/pingss-cv/static/css/main.d5410015.chunk.css"
   },
   {
     "revision": "c19b3127aa5426ad47c4",
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/beer.f7adcbef.jpg"
   },
   {
-    "revision": "85ee5b8e65479414365ae3f844219798",
-    "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
+    "revision": "ba7c6346cb863f6855454a95dcd63e30",
+    "url": "/pingss-cv/static/media/work.ba7c6346.svg"
   },
   {
     "revision": "7cf2139131cf4e1288358d492c2b211a",
     "url": "/pingss-cv/static/media/info.7cf21391.svg"
   },
   {
-    "revision": "ba7c6346cb863f6855454a95dcd63e30",
-    "url": "/pingss-cv/static/media/work.ba7c6346.svg"
+    "revision": "85ee5b8e65479414365ae3f844219798",
+    "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
   },
   {
     "revision": "08bac64cdc7329a50f4415bfaa9ec990",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/day.ae261962.png"
   },
   {
-    "revision": "3d1159ef34e7c777d531",
-    "url": "/pingss-cv/static/js/main.3d1159ef.chunk.js"
+    "revision": "55ff2b79edd5175c31f8",
+    "url": "/pingss-cv/static/js/main.55ff2b79.chunk.js"
   },
   {
     "revision": "d1402f85521a6ebd55f461f6605f3086",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/final.dd2cb557.jpg"
   },
   {
-    "revision": "ff51375dc2a80be21a00c13c36e7125a",
+    "revision": "f1d30cf74396f015a90307db651f37ce",
     "url": "/pingss-cv/index.html"
   }
 ];
