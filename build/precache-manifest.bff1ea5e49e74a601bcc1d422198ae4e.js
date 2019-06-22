@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/hero-sen.85ee5b8e.svg"
   },
   {
-    "revision": "7cf2139131cf4e1288358d492c2b211a",
-    "url": "/pingss-cv/static/media/info.7cf21391.svg"
-  },
-  {
     "revision": "ba7c6346cb863f6855454a95dcd63e30",
     "url": "/pingss-cv/static/media/work.ba7c6346.svg"
+  },
+  {
+    "revision": "7cf2139131cf4e1288358d492c2b211a",
+    "url": "/pingss-cv/static/media/info.7cf21391.svg"
   },
   {
     "revision": "08bac64cdc7329a50f4415bfaa9ec990",
