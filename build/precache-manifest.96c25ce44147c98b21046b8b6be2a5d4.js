@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/signup.f84402b5.jpg"
   },
   {
-    "revision": "3d1159ef34e7c777d531",
-    "url": "/pingss-cv/static/css/main.0556dc4b.chunk.css"
+    "revision": "cd4f99abc27ce7e35f31",
+    "url": "/pingss-cv/static/css/main.a41554e0.chunk.css"
   },
   {
     "revision": "c19b3127aa5426ad47c4",
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/day.ae261962.png"
   },
   {
-    "revision": "3d1159ef34e7c777d531",
-    "url": "/pingss-cv/static/js/main.3d1159ef.chunk.js"
+    "revision": "cd4f99abc27ce7e35f31",
+    "url": "/pingss-cv/static/js/main.cd4f99ab.chunk.js"
   },
   {
     "revision": "d1402f85521a6ebd55f461f6605f3086",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/pingss-cv/static/media/final.dd2cb557.jpg"
   },
   {
-    "revision": "ff51375dc2a80be21a00c13c36e7125a",
+    "revision": "41952e4fce03ae292eb17435dbfa881c",
     "url": "/pingss-cv/index.html"
   }
 ];
